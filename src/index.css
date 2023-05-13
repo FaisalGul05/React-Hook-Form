@@ -1,0 +1,28 @@
+html{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+p{
+  color: red;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 20px; /* width of the scrollbar */
+  background-color: #c9c0c0;
+  border: #8e4a4a;
+
+  /* background color of the scrollbar */
+}
+
+/* Style the thumb (the part of the scrollbar that you grab) */
+::-webkit-scrollbar-thumb {
+  background-color: #00669e; /* color of the thumb */
+  border-radius: 20px;
+  border: #555;
+  height: 300px;
+  /* roundness of the thumb */
+}
